@@ -96,11 +96,11 @@
         position: relative;
         grid-column: 1 / 5;
         grid-row: 15 / 29; 
-        width: 375px;
+        width: 400px;
         height: 1038px;
     }
 
-    .background-skate1 {
+    .busterboard {
         position: absolute;
         left: 8.67%;
         right: 6.67%;
@@ -120,7 +120,7 @@
         margin-left: 30px;
     }
 
-    .product-number__style {
+    .stylenumber1 {
         left: 6.67%;
         right: 70.28%;
         top: 28.53%;
@@ -145,7 +145,7 @@
     .product-description {
         position: relative;
         width: 360px;
-        height: 400px;
+        height: 350px;
         margin-left: 30px;
     }
 
@@ -162,12 +162,12 @@
         color: white;
     }
 
-    .moreinfo__container {
+    .moreinfo-container {
         width: 312px;
         height: 27px;
     }
 
-    .moreinfo__container h3 {
+    .moreinfo-container h3 {
         font-family: Poppins;
         font-style: normal;
         font-weight: bold;
@@ -178,7 +178,7 @@
     .yellow-downarrow { 
         position: absolute;
         left: 24%;
-        top: 57%;
+        top: 66%;
     }
     
     /*------------Producto 2--------------*/
@@ -187,7 +187,7 @@
         position: relative;
         grid-column: 1 / 5;
         grid-row: 29 / 45; 
-        width: 375px;
+        width: 400px;
         height: 1038px;
     }
 
@@ -196,6 +196,33 @@
         left: 8.67%;
         right: 6.67%;
         top: 2%;
+    }
+
+    .second-product__container {
+        position: absolute;
+        width: 400px;
+        height: 516px;
+        top: 43%;
+    }
+
+    .stylenumber2 {
+        left: 6.67%;
+        right: 70.28%;
+        top: 28.53%;
+        bottom: 69.01%;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 8rem;
+        line-height: 12rem;
+        color: #FFFFFF;
+        opacity: 0.1;
+    }
+
+    .yellow-downarrow2 { 
+        position: absolute;
+        left: 24%;
+        top: 52%;
     }
 
 }
