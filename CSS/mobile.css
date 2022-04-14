@@ -1,0 +1,231 @@
+
+@media (max-width:960px) {
+
+    body {
+        display: grid;
+        grid-template: repeat(72, 68px) /repeat(4, 94px);
+    }
+
+   /*-----------HEADER------------*/
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: 1 / 5;
+        grid-row: 1 / 4;  
+        width: 400px;
+    }
+   
+    .header-logo {
+        position: absolute;
+        width: 106.39px;
+        height: 40px;
+        margin-bottom: 24px;
+        left: 35%;
+        top: 3%;
+    }
+
+    .nav-sections {
+        position: absolute;
+        width: 280px;
+        height: 24px;
+    }
+
+    .sections {
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        font-weight: 500;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    /*----------- FIRST IMAGE ---------------*/
+
+    .background-skate {
+        grid-column: 1 / 5;
+        grid-row: 1 / 18;
+        width: 400px;
+        z-index: -2;  
+    }
+    
+    /*------------BODY-------------*/
+
+    .introduction {
+        grid-column: 1 / 5;
+        grid-row: 4 / 8; 
+    }
+
+    .introduction__container {
+        width: 276px;
+        height: 240px;
+        margin: 0 auto;
+    }
+
+    .tagline {
+        position: static;
+    }
+
+    .introduction__phrase {
+        width: 312px;
+        height: 144px;
+        left: 23px;
+        top: 58px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2.4rem;
+        line-height: 3.6rem;
+    }
+
+    /*------------SECOND IMAGE-----------*/
+
+
+    .background-degraded {
+        grid-column: 1 / 5;
+        grid-row: 8 / 18;
+        width: 400px;
+        z-index: -1; 
+    }
+
+    /*------------Producto 1--------------*/
+
+    .first-product {
+        position: relative;
+        grid-column: 1 / 5;
+        grid-row: 15 / 29; 
+        width: 400px;
+        height: 1038px;
+    }
+
+    .busterboard {
+        position: absolute;
+        left: 8.67%;
+        right: 6.67%;
+        top: 2%;
+    }
+
+    .first-product__container {
+        position: absolute;
+        width: 400px;
+        height: 516px;
+        top: 43%;
+    }
+
+    .product-number {
+        width: 83px;
+        height: 120px;
+        margin-left: 30px;
+    }
+
+    .stylenumber1 {
+        left: 6.67%;
+        right: 70.28%;
+        top: 28.53%;
+        bottom: 69.01%;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 8rem;
+        line-height: 12rem;
+        color: #FFFFFF;
+        opacity: 0.1;
+    }
+
+    .tagline2 {
+        position: absolute;
+        width: 72px;
+        height: 2px;
+        left: 6.67%;
+        top: 12%;
+    }
+
+    .product-description {
+        position: relative;
+        width: 360px;
+        height: 350px;
+        margin-left: 30px;
+    }
+
+    .product-description p {
+        font-size: 16px;
+        color: white;
+    }
+
+    .cruiser {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        color: white;
+    }
+
+    .moreinfo-container {
+        width: 312px;
+        height: 27px;
+    }
+
+    .moreinfo-container h3 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        color: #FDD130;
+    }
+
+    .yellow-downarrow { 
+        position: absolute;
+        left: 24%;
+        top: 66%;
+    }
+    
+    /*------------Producto 2--------------*/
+
+    .second-product {
+        position: relative;
+        grid-column: 1 / 5;
+        grid-row: 29 / 45; 
+        width: 400px;
+        height: 1038px;
+    }
+
+    .lycanboard {
+        position: absolute;
+        left: 8.67%;
+        right: 6.67%;
+        top: 2%;
+    }
+
+    .second-product__container {
+        position: absolute;
+        width: 400px;
+        height: 516px;
+        top: 43%;
+    }
+
+    .stylenumber2 {
+        left: 6.67%;
+        right: 70.28%;
+        top: 28.53%;
+        bottom: 69.01%;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 8rem;
+        line-height: 12rem;
+        color: #FFFFFF;
+        opacity: 0.1;
+    }
+
+    .yellow-downarrow2 { 
+        position: absolute;
+        left: 24%;
+        top: 52%;
+    }
+
+}
+
+
+
